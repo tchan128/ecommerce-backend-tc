@@ -2,7 +2,7 @@
     <a href="https://github.com/tchan128/ecommerce-backend-tc"><img src="./asset/ecommerce.png" alt="Logo" width="80" height="80"></a>
     <h3 align="center">E-commerce Backend</h3>
     <p align="center">
-        The motivation for this product is to improve upon a starter code to make a functioning e-commerce backend. This functioning system allows user to search via category, tags, and products, and allows them to create, update, and delete items. I built this project because as we move into a more digital world, it is something that helps customer shop online with ease. Additionally, it allows businesses to expand their experience and scope. This is a system that physical stores can use to help organize their inventory and organize the products they have on a database. This app is a solution for individuals who wants to easily access and modify information in their inventory. It allows them to stay organize and pull up information they need right away. Through this project, I learned how to develop my skills in Sequelize and further my understanding of Express.js.  
+        The motivation for this product is to improve upon a starter code to make a functioning e-commerce backend. This functioning system allows users to search via category, tags, and products and allows them to create, update, and delete items. I built this project because as we move into a more digital world, it is something that helps customers shop online with ease. Additionally, it allows businesses to expand their experience and scope. This is a system that physical stores can use to help organize their inventory and organize the products they have on a database. This app is a solution for individuals who want to easily access and modify information in their inventory. It allows them to stay organized and pull up the information they need right away. Through this project, I learned how to develop my skills in Sequelize and further my understanding of Express.js.  
         <br/>
         <br/>
         <a href="https://github.com/tchan128/ecommerce-backend-tc"><strong>Explore the docs »</strong></a>
@@ -24,7 +24,7 @@
 
 ## About the Project
 
-This project is a e-commerce backend. The system is built with Javascript, Sequelize, MySQL WorkBench, ExpressJS, and nodeJS. To build and visualize the functionality and the localhost server, Insomnia was used. In this system, the main components are being able to: 
+This project is an e-commerce backend. The system is built with Javascript, Sequelize, MySQL WorkBench, ExpressJS, and nodeJS. To build and visualize the functionality and the localhost server, Insomnia was used. In this system, the main components are being able to: 
 
 - View all categories, products, and tags (and its associations)
 - View selected categories, products, and tags
@@ -74,26 +74,26 @@ You should now be able to test out the functionality on Insomnia.
  
 ## Usage
 
-In this project, a e-commerce backend is improved on to help customers and businesses to engage in online buying and selling with ease. As described there are many functionalities within this backend, but below are the main usages and explanation when using on Insomnia:
+In this project, an e-commerce backend is improved to help customers and businesses to engage in online buying and selling with ease. As described there are many functionalities within this backend, but below are the main usages and explanations when using on Insomnia:
 
 - Accessing `api/categories`
-  - GET route will display all categories with it's associated product & tags
+  - GET route will display all categories with their associated product & tags
 - Accessing `api/categories/:id`
-  - GET route will display the specific category with it's associated product & tag for a category that is entered in place of `:id` 
-  - PUT route will allow user to edit the specific category's name
-  - DELETE route will allow user to delete the specific category
+  - GET route will display the specific category with its associated product & tag for a category that is entered in place of `:id` 
+  - PUT route will allow the user to edit the specific category's name
+  - DELETE route will allow the user to delete the specific category
 - Accessing `api/products`
-  - GET route will display all products with it's associated categories and tags
+  - GET route will display all products with their associated categories and tags
 - Accessing `api/products/:id`
-  - GET route will display the specific product with it's associated category & tag
-  - PUT route will allow user to edit the specific product's properties
-  - DELETE route will allow user to delete the specific product
+  - GET route will display the specific product with its associated category & tag
+  - PUT route will allow the user to edit the specific product's properties
+  - DELETE route will allow the user to delete the specific product
 - Accessing `api/tags`
-  - GET route will display all products with it's associated categories and products
+  - GET route will display all products with their associated categories and products
 - Accessing `api/tags/:id`
-  - GET route will display the specific category with it's associated product & category
-  - PUT route will allow user to edit the specific tag's name
-  - DELETE route will allow user to delete the specific tag
+  - GET route will display the specific category with its associated product & category
+  - PUT route will allow the user to edit the specific tag's name
+  - DELETE route will allow the user to delete the specific tag
 
 To see the system in action please visit this link: https://share.vidyard.com/watch/9eCJY9rikzQRKRzBZCveb7?
 
@@ -101,7 +101,25 @@ To see the system in action please visit this link: https://share.vidyard.com/wa
 
 ## Visuals
 
+1. GET all categories
 
+<img width="1409" alt="Screenshot 2024-01-31 at 10 31 38 PM" src="https://github.com/tchan128/ecommerce-backend-tc/assets/56553374/72708fae-20f6-433a-849c-c0c260c7d819">
+
+2. Get category by ID
+
+<img width="1414" alt="Screenshot 2024-01-31 at 10 31 47 PM" src="https://github.com/tchan128/ecommerce-backend-tc/assets/56553374/e56c21d6-39d7-4ce8-a165-be87e7e25a3f">
+
+3. CREATE category
+
+<img width="1411" alt="Screenshot 2024-01-31 at 10 32 01 PM" src="https://github.com/tchan128/ecommerce-backend-tc/assets/56553374/71e8c699-224f-4fc6-9494-1f761afb6489">
+
+4. UPDATE category
+   
+<img width="1409" alt="Screenshot 2024-01-31 at 10 32 10 PM" src="https://github.com/tchan128/ecommerce-backend-tc/assets/56553374/b1fa679d-2b03-4401-9266-70eb6e54d351">
+
+5. DELETE category
+
+<img width="1415" alt="Screenshot 2024-01-31 at 10 32 19 PM" src="https://github.com/tchan128/ecommerce-backend-tc/assets/56553374/7176e302-7c07-4b58-bc59-b9f6a3b731f9">
 
 ## Credits
 
